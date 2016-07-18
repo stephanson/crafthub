@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+            android:key="poll_for_notifications"
+            android:title="@string/receive_notifications_title_string"
+            android:summary="@string/receive_notifications_summary_string"
+            android:defaultValue="true"
+    />
+</PreferenceScreen>

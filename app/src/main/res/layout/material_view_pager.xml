@@ -1,0 +1,22 @@
+<com.github.florent37.materialviewpager.MaterialViewPager
+        android:id="@+id/materialViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        com.stephanson.beerin.app:viewpager_logoMarginTop="50dp"
+        com.stephanson.beerin.app:viewpager_color="@color/material_view_pager_background_color"
+        com.stephanson.beerin.app:viewpager_headerHeight="200dp"
+        com.stephanson.beerin.app:viewpager_headerAlpha="1.0"
+        com.stephanson.beerin.app:viewpager_imageHeaderDarkLayerAlpha="0.2"
+        com.stephanson.beerin.app:viewpager_hideLogoWithFade="true"
+        com.stephanson.beerin.app:viewpager_hideToolbarAndTitle="true"
+        com.stephanson.beerin.app:viewpager_enableToolbarElevation="true"
+        com.stephanson.beerin.app:viewpager_parallaxHeaderFactor="1.5"
+        com.stephanson.beerin.app:viewpager_headerAdditionalHeight="20dp"
+        com.stephanson.beerin.app:viewpager_displayToolbarWhenSwipe="true"
+        com.stephanson.beerin.app:viewpager_transparentToolbar="false"
+        com.stephanson.beerin.app:viewpager_animatedHeaderImage="true"
+        com.stephanson.beerin.app:viewpager_logo="@layout/material_view_pager_logo"
+        com.stephanson.beerin.app:viewpager_pagerTitleStrip="@layout/material_view_pager_pagertitlestrip_newstand"
+
+        xmlns:com.stephanson.beerin.app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>

@@ -1,0 +1,173 @@
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pub_large_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+    >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <include layout="@layout/material_view_pager_placeholder"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                card_view:cardElevation="2dp"
+                card_view:cardCornerRadius="1dp">
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:padding="10dp"
+                              android:orientation="vertical">
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/pub_large_info_description_label"
+                                        style="@style/list_item_label_style"
+                                />
+                                <TextView
+                                        android:id="@+id/pub_info_descr"
+                                        android:layout_width="match_parent"
+                                        android:ellipsize="marquee"
+                                        android:layout_height="wrap_content"
+                                    style="@style/list_item_description_style"
+                                />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardElevation="2dp"
+                    card_view:cardCornerRadius="1dp">
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:padding="5dp"
+                >
+                <com.stephanson.beerin.app.Views.CustomViews.LoopViewPager
+                        android:id="@+id/auto_galary"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                <me.relex.circleindicator.CircleIndicator
+                        android:id="@+id/auto_galary_indicator"
+                        android:layout_gravity="bottom"
+                        android:layout_width="wrap_content"
+                        android:background="@color/alpha_light_black_color"
+                        android:layout_alignParentLeft = "true"
+                        android:layout_alignParentBottom = "true"
+                        android:layout_height="20dp"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:background="@color/main_background"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="3dp"
+                    card_view:cardElevation="2dp"
+                    card_view:cardCornerRadius="1dp">
+
+                    <LinearLayout android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:padding="10dp"
+                                  android:orientation="vertical">
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/address_description"
+                                        style="@style/list_item_label_style"
+                                />
+                                <TextView
+                                        android:id="@+id/pub_info_addres"
+                                        android:textIsSelectable = "true"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        style="@style/list_item_description_style"
+                                />
+                            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="3dp"
+                            card_view:cardElevation="2dp"
+                            card_view:cardCornerRadius="1dp">
+
+                            <LinearLayout android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                android:padding="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/time_of_work_description"
+                                        style="@style/list_item_label_style"
+                                />
+                                <TextView
+                                        android:id="@+id/pub_info_time"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        style="@style/list_item_description_style"
+                                />
+                            </LinearLayout>
+            </android.support.v7.widget.CardView>
+             <android.support.v7.widget.CardView
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginBottom="3dp"
+                            card_view:cardElevation="2dp"
+                            card_view:cardCornerRadius="1dp">
+
+                            <LinearLayout android:layout_width="match_parent"
+                                          android:layout_height="match_parent"
+                                          android:padding="10dp"
+                                          android:orientation="vertical">
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/phone_description"
+                                        style="@style/list_item_label_style"
+                                />
+                                <TextView
+                                        android:id="@+id/pub_info_phone"
+                                        android:textIsSelectable = "true"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        style="@style/list_item_description_style"
+                                />
+                                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

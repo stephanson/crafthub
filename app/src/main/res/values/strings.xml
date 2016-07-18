@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CraftHub</string>
+
+    <string name="receive_notifications_title_string">Получать уведомления</string>
+    <string name="receive_notifications_summary_string">Вы будете получать уведомения от выбранных Вами заведений</string>
+    <string name="settingsTitle">Настройки</string>
+    <string name="logo_title">CraftHub</string>
+    <string name="subscribe_to_push">Вы будете получать уведомления от</string>
+    <string name="unsubscribe_from_push">Вы больше не будете получать уведомления от</string>
+    <string name="price_label">Цена:</string>
+    <string name="rate_label">Оценка:</string>
+    <string name="nonetwork_error">Похоже нет сети. Будут отображены поседние успешные данные</string>
+    <string name="address_description">Адрес:</string>
+    <string name="time_of_work_description">Время работы:</string>
+    <string name="phone_description">Контакты:</string>
+    <string name="template_description_label">Описание:</string>
+    <string name="pub_large_info_description_label">Немного о нас:</string>
+</resources>

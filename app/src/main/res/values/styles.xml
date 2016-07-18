@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+    <style name="list_text_with_transparent_holder">
+        <item name="android:textSize">27sp</item>
+        <item name="android:background">@color/alpha_black_color</item>
+        <item name="android:textColor">@color/generic_text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="list_item_header_style">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@color/generic_text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="list_item_description_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/generic_text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="secondary_text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="list_item_label_style">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/generic_text_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="custom_rating_bar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@xml/custom_ratingbar</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:maxHeight">24dip</item>
+    </style>
+
+
+
+</resources>
